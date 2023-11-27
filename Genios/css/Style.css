@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+#logueo {
+    
+    font-family: Arial, sans-serif;
+    color:  #b50303;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: flex-end;
+}
+
+body.index {
+    background-color: #b50303;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b50303;
+}
+
+header.index {
+    text-align: center;
+    padding: 2px;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.index nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.index nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.index nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.index nav ul li a:hover {
+    background-color: white;
+    color: #b50303;
+}
+
+footer.index {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+/*REGISTRAR*/
+
+
+body.registrar {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b50303;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 00vh;
+}
+
+header.registrar {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+form.registrar {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+.registrar input[type="text"],
+.registrar input[type="date"],
+.registrar input[type="number"],
+.registrar input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.registrar input[type="submit"] {
+    background-color: #b50303;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+.registrar input[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+
+/*ACTUALIZAR*/
+body.actualizar {
+    font-family: Arial, sans-serif;
+}
+
+form.actualizar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+.actualizar form h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.actualizar input[type=text], 
+.actualizar input[type=email], 
+.actualizar input[type=date], 
+.actualizar input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.actualizar input[type=submit] {
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actualizar input[type=submit]:hover {
+    background-color: #ffffff;
+}
+
+.actualizar label {
+    font-weight: bold;
+}
+
+/*ACTUALIZAR*/
+
+
+body.actualizarr {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b50303;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header.actualizarr {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+form.actualizarr {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 500px;
+}
+
+.actualizarr input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #b50303;
+}
+
+.actualizarr input[type="submit"] {
+    background-color: #b50303;
+    color: rgb(243, 243, 243);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+.actualizarr input[type="submit"]:hover {
+    background-color: #f4f8f5;
+    color: #b50303;
+}
+
+/* CONSULTAR */
+body.consultar {
+    font-family: Arial, sans-serif;
+    color: #b50303;
+}
+
+table.consultar {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.consultar th {
+    background-color: #4CAF50;
+    color: #b50303;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.consultar td {
+    border: 2px solid #b50303;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.consultar tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.consultar tr:hover {
+    background-color: #ddd;
+}
+
+.consultar a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #b50303;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.consultar a:hover {
+    background-color: #45a049;
+}
+
+/*ELIMINAR*/
+body.eliminar {
+    font-family: Arial, sans-serif;
+    background-color: #b50303;
+    padding: 20px;
+}
+
+form.eliminar {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center; 
+}
+
+input[type="number"].eliminar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #b50303;
+}
+
+input[type="submit"].eliminar {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b50303;
+    color: #fff;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+}
+
+input[type="submit"].eliminar:hover {
+    background-color: #0056b3;
+}
+
+a.eliminar {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block; 
+}
+
+a.eliminar:hover {
+    text-decoration: underline;
+}
+
+h1.eliminar {
+    font-family: 'Georgia', serif;
+    color: #fff;
+    text-align: center;
+}
+
+#login {
+    color: white;
+    background-color: #b50303;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative; 
+}
+
+#login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#login input {
+    width: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#login button {
+    background-color: #ffffff;
+    color: #b50304;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#logo {
+    background-color: #ffffff;
+    
+    border-radius: 10%;
+    position: absolute;
+    top: 15px; 
+    left: 235px;
+    max-width: 90px; 
+    max-height: 90px; 
+}
+
+button{
+    border-color: #b50303;
+    background-color: #ffffff;
+    color: #b50303;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#btn1 {
+    border: 2px solid #b50303;
+    height: 40px;
+    width: 130px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 700%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b50303;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+
+#btn1:hover {
+    background-color: #ffffff; 
+    color: #b50303; 
+}
+#hlogin {
+    background-color: #b50303;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+   
+    align-items: center;
+    height: 40px;
+}
+#log1{
+    background-color: #ffffff;
+    margin-right: 40px;
+    border-radius: 100%;
+    position:initial;
+    top: 15px; 
+    left: 150px;
+    max-width: 40px; 
+    max-height: 40px; 
+    
+}
+
+body.student {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.student {
+    background-color: #b50303;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.student nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.student nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main.student {
+    padding: 20px;
+}
+
+.mis-cursos, .calificaciones {
+    margin-bottom: 30px;
+}
+
+table.student {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td.student {
+    border: 1px solid #ddd;
+}
+
+th, td.student {
+    padding: 10px;
+    text-align: left;
+}
+
+footer.student {
+    background-color: #b50303;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body.profe {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.profe {
+    background-color: #b50303;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profe nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.profe nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main.profe {
+    padding: 20px;
+}
+
+.cursos, .calificaciones {
+    margin-bottom: 30px;
+}
+
+table.profe {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td.profe {
+    border: 1px solid #ddd;
+}
+
+th, td.profe {
+    padding: 10px;
+    text-align: left;
+}
+
+footer.profe {
+    background-color: #b50303;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
